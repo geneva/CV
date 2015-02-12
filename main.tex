@@ -33,7 +33,7 @@
 
 \usepackage{moderntimeline/moderntimeline}
 
-\tlmaxdates{2001}{2014}                             % Set the scale of the timeline. \tlmaxdates{startDate}{endDate}
+\tlmaxdates{2001}{2015}                             % Set the scale of the timeline. \tlmaxdates{startDate}{endDate}
 
 %-------------------Including xpatch package---------------------------------------------------------------
 
@@ -83,6 +83,8 @@
     \ifthenelse{\equal{#6}{}}{}{\emailsymbol~\texttt{\href{mailto:#6}{\nolinkurl{#6}}}\newline}%
     \ifthenelse{\equal{#7}{}}{}{\phonesymbol~#7\newline}
     \ifthenelse{\equal{#8}{}}{}{\mobilephonesymbol~#8}}
+    
+\newcommand{\genevabold}[1] {\textbf{#1}}
 
 %-------------------Personal Data for CV title-----------------------------------------------------------
 % Example:
@@ -224,15 +226,17 @@
 % Example: \printbibliography[type=inproceedings,title={Conference Publications}]
 % Example: \printbibliography[type=thesis,title={Thesis}]
 
-\printbibliography[type=misc,title={Preprints}]
+%\printbibliography[type=misc,title={Preprints}]
 \printbibliography[type=article,title={Journal Publications}]
 
 
 \section{Research Grants \& Fellowships}
 
+%\tldatecventry{2015}{Doctoral Dissertation Improvement Grant}{}{}{}{\$19,995}
+
 \tlcventry{2011}{2014}{Ernst Caspari Fellowship}{}{}{}{\$6,000}	
 
-\tlcventry{2010}{2014}{Google Earth Education Initiative}{awared as software licenses}{}{}{\$5,985 per year, renewed annually}
+\tlcventry{2010}{2014}{Google Earth Education Initiative}{awarded as software licenses}{}{}{\$5,985 per year, renewed annually}
 
 \tldatecventry{2011}{Sigma Xi Grants-in-Aid}{Speciation in Bahamian Trunk Anoles}{}{}{\$400} 
 
@@ -263,6 +267,11 @@
 \cvlistitem{R We There Yet?: An R package for the analysis of Markov chain Monte Carlo convergence in Bayesian phylogenetic inference (contributor) \emph{github.com/danlwarren/RWTY}}
 
 \cvlistitem{\textsc{ngscmd}: A C program to manipulate next-generation sequence data files \mbox{(contributor)} \emph{github.com/dgarriga/ngscmd}}
+
+
+%\section{Teaching Experience}
+%\tldatecventry{2014}{Guest Lecturer}{}{Population Genetics and Phylogeography}
+%\tldatecventry{2014}{Teaching Assistant}{American Genetic Association Non-model Genomics Workshop}{Ithaca, NY}{}{}
 
 
 \printbibliography[type=thesis,title={Thesis}]
