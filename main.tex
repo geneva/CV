@@ -33,7 +33,7 @@
 
 \usepackage{moderntimeline/moderntimeline}
 
-\tlmaxdates{2001}{2016}                             % Set the scale of the timeline. \tlmaxdates{startDate}{endDate}
+\tlmaxdates{2001}{2017}                             % Set the scale of the timeline. \tlmaxdates{startDate}{endDate}
 
 %-------------------Including xpatch package---------------------------------------------------------------
 
@@ -90,11 +90,11 @@
 % Example:
 \name{Anthony J}{Geneva}
 \title{Curriculum Vitae}                               % optional, remove / comment the line if not wanted
-\address{University of Rochester}{Department of Biology}{Rochester, NY 14627}% optional, remove / comment the line if not wanted; the "postcode city" and and "country" arguments can be omitted or provided empty
+\address{Havard University}{Museum of Comparative Zoology}{Cambridge, MA 02138}% optional, remove / comment the line if not wanted; the "postcode city" and and "country" arguments can be omitted or provided empty
 \phone[mobile]{+1~(215)~219~8709}                   % optional, remove / comment the line if not wanted
 %\phone[fixed]{+2~(345)~678~901}                    % optional, remove / comment the line if not wanted
 %\phone[fax]{+3~(456)~789~012}                      % optional, remove / comment the line if not wanted
-\email{anthony.geneva@rochester.edu}                               % optional, remove / comment the line if not wanted
+\email{geneva@crescatscientia.com}                               % optional, remove / comment the line if not wanted
 \homepage{CrescatScientia.com}                         % optional, remove / comment the line if not wanted
 \extrainfo{github.com/geneva}    
 %\extrainfo{additional information}                 % optional, remove / comment the line if not wanted
@@ -118,7 +118,9 @@
 % Format:  \tlcventry{StartYear}{EndYear}{Degree}{Institution}{City}{\textit{Grade}}{Description}  % Arguments 3 (Degree) to 6 (Grade) can be left empty. 
 % Example: \tlcventry{2012}{0}{BSc Computer Science}{University of MyCity}{MyCity}{}{Also completed several random courses}
 
-\tlcventry{2009}{0}{PhD Candidate}{University of Rochester}{}{}{supervisors: Daniel Garrigan \& Richard Glor}
+\tlcventry{2015}{0}{Post-Doctoral Fellow}{Harvard University}{}{}{supervisors: Daniel Garrigan \& Richard Glor}
+
+\tldatecventry{2015}{PhD Candidate}{University of Rochester}{}{}{supervisors: Daniel Garrigan \& Richard Glor}
 
 % For a single year:
 % Format:  \tldatecventry{StartYear}{Degree}{Institution}{City}{\textit{Grade}}{Description}
@@ -232,7 +234,7 @@
 
 \section{Research Grants \& Fellowships}
 
-%\tldatecventry{2015}{Doctoral Dissertation Improvement Grant}{}{}{}{\$19,995}
+\tldatecventry{2015}{Doctoral Dissertation Improvement Grant}{}{}{}{\$19,995}
 
 \tlcventry{2011}{2014}{Ernst Caspari Fellowship}{}{}{}{\$6,000}	
 
@@ -260,18 +262,55 @@
 \tldatecventry{2003}{Villanova Summer Research Fellowship}{}{}{}{}	
 
 \section{Software Contributions}
-\cvlistitem{\textsc{POPBAMTools}: An R package for reading and annotating output from POPBAM \emph{github.com/geneva/POPBAMTools}}
+\cvlistitem{\texttt{spectrum2stats}: An R package to calculate population genetic summary statistics from site frequency spectra \emph{github.com/geneva/spectrum2stats}}
 
-\cvlistitem{\textsc{AFLPTools}: Tools for the curation and analysis of AFLP data \emph{github.com/geneva/AFLPTools}}
+\cvlistitem{\texttt{POPBAMTools}: An R package for reading and annotating output from POPBAM \emph{github.com/geneva/POPBAMTools}}
 
-\cvlistitem{R We There Yet?: An R package for the analysis of Markov chain Monte Carlo convergence in Bayesian phylogenetic inference (contributor) \emph{github.com/danlwarren/RWTY}}
+\cvlistitem{\texttt{AFLPTools}: Tools for the curation and analysis of AFLP data \emph{github.com/geneva/AFLPTools}}
 
-\cvlistitem{\textsc{ngscmd}: A C program to manipulate next-generation sequence data files \mbox{(contributor)} \emph{github.com/dgarriga/ngscmd}}
+\cvlistitem{\texttt{R We There Yet?}: An R package for the analysis of Markov chain Monte Carlo convergence in Bayesian phylogenetic inference (contributor) \emph{github.com/danlwarren/RWTY}}
+
+\cvlistitem{\texttt{ngscmd}: A C program to manipulate next-generation sequence data files \mbox{(contributor)} \emph{github.com/dgarriga/ngscmd}}
 
 
 %\section{Teaching Experience}
 %\tldatecventry{2014}{Guest Lecturer}{}{Population Genetics and Phylogeography}
 %\tldatecventry{2014}{Teaching Assistant}{American Genetic Association Non-model Genomics Workshop}{Ithaca, NY}{}{}
+
+%\tldatecventry{2011}{Graduate Coordinator}{Freshman Level Advanced Biology}{Rochester}{}{}
+
+%\tldatecventry{2010}{Teaching Assistant}{Freshman Level Advanced Biology}{Rochester}{}{}
+
+%\tldatecventry{2003}{Teaching Assistant}{Sophomore Level General Biology}{Villanova}{}{}
+
+%\tldatecventry{2003}{Teaching Assistant}{Senior Level Evolution}{Villanova}{}{}
+
+%\tldatecventry{2002}{Teaching Assistant}{Freshman Level General Biology}{Villanova}{}{}
+
+%\tldatecventry{2002}{Teaching Assistant}{Senior Level Developmental Biology}{Villanova}{}{}
+
+%Broader Impacts
+%Outreach
+%2008 – present 	Scientific Advisor: Geckos: Tails to Toepads traveling exhibit
+%Exhibit on the science of new species discovery, over 1 million visitors at six Natural History/science museums
+	
+%Blogging
+%Contributor to Anole Annals – Clearinghouse of information on Anolis research
+%anoleannals.org > 70,000 total hits, ~700 unique visits/day
+
+%Student Mentoring  - University of Rochester Undergraduates
+%Shannon Keating (thesis) – molecular population genetics, phylogenetics
+%Sabina Noll - bioinformatics
+%Jared Hilton – multilocus phylogenetics
+%Christine Rienhart – specimen data management and analysis
+%Erin Hatch – experimental hybridizations
+%Frank Chang – molecular methods
+%Benjamin Desch (thesis) – molecular population genetics
+%Hillary Goldman – molecular methods
+
+%Student Mentoring – NSF-REU (Research Experience for Undergraduates)
+%2008	Susan Tsang, Project Title: Ecology and Genetics of a Rare Fish
+%2006	Patrick Videau, Project Title: Developing DNA extraction protocols from Museum Preserved Specimens
 
 
 \printbibliography[type=thesis,title={Thesis}]
